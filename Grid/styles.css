@@ -12,6 +12,12 @@
   grid-template-columns: 1fr 3fr;
 } */
 
+/* solution 3:
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+} */
+
 .grid-item {
   width: 100%;
   height: 100px;
